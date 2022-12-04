@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("fonts/Roboto-Light.ttf");
+}
+
+body {
+  font-family: "Roboto-Light", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 900px;
+  background: #fff;
+  border: 5px solid #000;
+  border-top: 5px solid #203351;
+  border-radius: 20px;
+  
+  margin-top: 1.8em;
+  padding: 2em;
+  opacity: 0.85;
+}
+
+.logo {
+  margin-top: 1em;
+}
+
+.logo img {
+  width: 240px;
+  height: 150px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #696969;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #3f3f3f;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.alert-info {
+  color: #111;
+  background-color: #b4b4b4;
+  border-color: #878787;
+}
+
+.note {
+  font-size: 12px;
+}
+
+.btn-generate {
+  background-color: #b4b4b4;
+  border-color: #878787;
+}
+
+.btn-generate:hover {
+  background-color: #3f3f3f;
+  border-color: #878787;
+  color: #fff;
+}
+
+.slidecontainer {
+  width: 100%;
+  font-weight: bold;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #b4b4b4;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #b4b4b4;
+  cursor: pointer;
+}
+
+.spinner {
+  margin: 10px auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #999;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  margin: 0 1px;
+
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+
+@keyframes stretchdelay {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+
+/*
+	Test UI
+*/
+.hero-text {
+  font-size: 18px;
+  text-align: center;
+}
+
+#step1,
+#step2,
+#step3,
+#locker {
+  width: 700px;
+  margin: 40px auto;
+  max-width: 100%;
+}
+
+#step2,
+#step3 {
+  display: none;
+}
+
+ol {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 0px !important;
+}
+
+.progress-bar {
+  background-color: #b4b4b4 !important;
+}
+
+.offer {
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 480px) {
+  .text-link {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  .text-link {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .text-link {
+    font-size: 14px;
+  }
+}

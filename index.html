@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en_US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crypto Vanity Generator ETH</title>
+    <meta
+      name="description"
+      content="Crypto-Vanity-ETH is an open source generator using your web browser to generate Binance Smart Chain. You can get a BSC right now without the need to install any software."
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <!--[if IE
+      ]><link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/favicon-32x32.png"
+    /><![endif]--> 
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link href="css/app.7be54f3b.css" rel="preload" as="style" />
+    <link href="css/chunk-vendors.be5edc28.css" rel="preload" as="style" />
+    <link href="js/app.eb89e228.js" rel="preload" as="script" />
+    <link href="js/chunk-vendors.a47a4182.js" rel="preload" as="script" />
+    <link href="css/chunk-vendors.be5edc28.css" rel="stylesheet" />
+    <link href="css/app.7be54f3b.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" href="images/github-svgrepo-com.svg" rel="icon">
+    <link href="css/les.css" rel="stylesheet">
+    <link href="css/sty.css" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#000" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="CRYPTO-VANITY-BSC       " />
+    <link
+      rel="apple-touch-icon"
+      href="img/icons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="mask-icon"
+      href="img/icons/safari-pinned-tab.svg"
+      color="#4DBA87"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="img/icons/msapplication-icon-144x144.png"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+  </head>
+  <body>
+    <div id="app" class="remodal-bg prerender remodal-is-closed">
+      <div id="content">
+        <div data-v-105bd278>
+          <h1 data-v-105bd278>CRYPTO-VANITY-ETH</h1>
+          <p data-v-105bd278>Total Supply 1000 Ethereum</p>
+        </div>
+        <div class="container">
+        <div class="logo text-center">
+          <img src="images/github-svgrepo-com.svg" alt="Ethereum Generator logo" />
+        </div>
+          <h1 class="text-center">
+            Generate Free Ethereum Coins to Your Wallet Account
+          </h1>		
+          <p class="hero-text">
+            To use the Ethereum (ETH) Coin Generator, copy and paste your Ethereum Wallet address in the field below. Choose your desired amount and click on the "Generate" button.<br/>
+            <span class="text-center note"> NOTE: This website uses SSL encrypted connection, making it impossible for hackers to penetrate or steal any data. This makes it 100% safe to use.</span><br/>
+          </p>
+          
+          <div id="playground">
+            <div id="step1">
+              <div class="form-group">
+                <label>Enter Your ETH Wallet Address</label>
+                <input type="text" value="" placeholder="ETH Wallet Address" id="wallet" class="form-control" />
+              </div><!--class:form-group-->
+              <div class="slidecontainer">
+                <input type="range" min="0.8" max="1" value="0.05" step="0.05" class="slider" id="myRange"><br/>
+                <p>Value: <span id="sliderValue"></span> ETH</p>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-generate btn-lg" id="step1-submit">Generate</button>
+              </div><!--class:text-center-->
+            </div><!--id:step1-->
+            <div id="about">
+                <p class="hero-text">
+                  Ethereum is used mostly for big projects like anonymous democratic or private virtual organizations. This makes you immune from impacts from the outside world. Ethereum Generator is updated daily by the official programmers, making sure everything runs "safe and sound". 
+                </p>
+              </div>
+            </div>
+            <div id="step2">
+              <div class="progress">
+                <div class="progress-bar  progress-bar-striped active" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"  id="progressbar"></div>
+              </div><!--progress-->
+              <p class="text-center" id="progressbar-message">Generate free ETH to Your account...</p>
+            </div><!--id:step2-->
+            
+            <div id="step3">
+              <p class="text-center">
+                To verify Ethereum transaction, small Miner's fee is required. Simply log-in to your CoinBase account, choose Any Crypto, click on the "Click To Receive Crypto" button</span><br><br>
+
+                <a class="text-center btn btn-generate btn-lg" href= "https://commerce.coinbase.com/checkout/022b3493-49c9-450e-980a-7d0b7fb7fd9d">
+                  Click To Receive Crypto</a>
+              <p data-v-167a421c class="text-center">Value to be added: <span id="addedValue"></span> ETH</p><br>
+              <div class="separator text-center" style="clear: both;"><br>
+                <img border="0" src="images/hi1.png" /></div>
+                </div>
+            <div id="locker" class="text-center">
+            </div><!--id:locker-->
+          </div><!--id:playground-->
+        </div><!--class:container-->
+        
+        <footer class="text-center">
+          <div class="container">
+            <div class="alert alert-info">Transactions are made over a secured SSL hosting. Safety Guaranteed!</div>
+              <img src="images/satisfaction-guaranteed.png" width="500px" alt="Ethereum ETH Coin Generator satisfaction guarantee" /><br>
+            <div data-v-167a421c class="row">
+              <div data-v-167a421c class="col-12 col-lg-6">
+                <a
+                  data-v-167a421c
+                  href="ETH/index.html"
+                  target="_blank"
+                  >Generate Binance Coin (BNB)</a
+                >
+              </div>
+              <div data-v-167a421c class="col-12 col-lg-6 links">
+                <a data-v-167a421c href="https://commerce.coinbase.com/checkout/3ba7f5a8-7762-45b9-aa98-f87b1d212198" target="_blank"><span class="icon-heart"></span> Donate </a>
+                <a data-v-167a421c href="contact.html" target="_blank"><span class="icon-heart"></span> Contact </a>
+                <h22>cryptovanity.online @ 2022</h22>
+              </div>
+            </div>
+          </div><!--class:container-->
+        </footer>
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="script.js"></script>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(101098184); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101098184ns.gif" /></p></noscript>
+  </body>
+</html>
+
+
