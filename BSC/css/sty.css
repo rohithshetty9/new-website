@@ -1,0 +1,42 @@
+.box {
+  overflow-wrap: break-word;
+}
+.text-col{
+  color: red;
+
+}
+.textcol{
+  color: black;
+}
+.contact-center{
+  flex-basis: center;
+}
+
+.btn.btn2{
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  background-color: #000;
+}
+.contact-center form{
+  width: 100%;
+  text-align: center;
+}
+from input, from textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #fff;
+  padding: 15px;
+  margin: 15px;
+  color: #000;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+#msg{
+  color: #000;
+  margin-top: -10px;
+  display: block;
+
+}
